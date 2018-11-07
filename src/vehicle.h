@@ -46,7 +46,7 @@ public:
 	*/
 	virtual ~Vehicle();
 
-	void Vehicle::choose_next_stateVer2(map<int, Vehicle> &vehicle_map);
+    void choose_next_stateVer2(map<int, Vehicle> &vehicle_map);
 
 	bool get_vehicle_behind(map<int, Vehicle> &vehicle_map, int lane, Vehicle & rVehicle);
 
